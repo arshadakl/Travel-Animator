@@ -11,14 +11,6 @@ A beautiful web application that creates animated travel route videos from your 
 - **Responsive Design**: Works on desktop and mobile devices
 - **Real-world Routing**: Uses OSRM for accurate driving routes and great circle calculations for flights
 
-## Demo
-
-[Live Demo](https://your-demo-link-here.com)
-
-## Screenshots
-
-![Travel Animator Screenshot](./screenshot.png)
-
 ## Tech Stack
 
 - **Framework**: Next.js 16 with App Router
@@ -144,15 +136,6 @@ const VEHICLE_COLORS = {
 2. Update the vehicle loader in `vehicle-3d-renderer.ts`
 3. See `docs/3D-VEHICLES.md` for detailed instructions
 
-## Browser Support
-
-- Chrome 90+
-- Firefox 88+
-- Safari 14+
-- Edge 90+
-
-Video export requires MediaRecorder API support.
-
 ## Performance
 
 - Map tiles: CARTO basemaps (light theme)
@@ -160,23 +143,6 @@ Video export requires MediaRecorder API support.
 - Route calculation: Async with loading states
 - Video export: Canvas capture at 30fps
 
-## API Credits
-
-- **Maps**: CARTO / OpenStreetMap
-- **Routing**: OSRM (Open Source Routing Machine)
-- **Geocoding**: Nominatim (OpenStreetMap)
-
 ## Contributing
 
 Feel free to fork and submit pull requests!
-
-## Acknowledgments
-
-- Built with [Next.js](https://nextjs.org)
-- UI components from [shadcn/ui](https://ui.shadcn.com)
-- 3D rendering with [Three.js](https://threejs.org)
-- Maps by [MapLibre](https://maplibre.org)
-
----
-
-Built with ❤️ for travelers and storytellers
